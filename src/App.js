@@ -1,3 +1,4 @@
+import './App.css';
 import React from "react";
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -5,10 +6,10 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div>
-      <div>
+      <div class="content">
         <Header />
       </div>
-      <div>
+      <div class="footer">
         <Footer />
       </div>
     </div>

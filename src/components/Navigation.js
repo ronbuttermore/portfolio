@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Project from './Project';
 
 let state = 2;
@@ -17,17 +17,31 @@ const projects = [
       name: 'Test3',
       description: 'hgmfgym',
       id: 3,
-    }
+    },
+    {
+        name: 'Test3',
+        description: 'werwrewrew',
+        id: 4,
+      },
+      {
+        name: 'Test4',
+        description: 'hmngdmghdbfg',
+        id: 5,
+      },  {
+        name: 'Test5',
+        description: 'xfvedfe',
+        id: 6,
+      }
   ];
 
 function Navigation() {
-    if (state === 2) {
+    const [currentPage, setCurrentPage] = useState(
+        'Projects'
+    );
+
+    if (currentPage === 'Projects') {
         return (
         <div>
-            <h1>Navigation</h1>
-            <ul>
-                <li>Option 1</li>
-            </ul>
             <Project projects={projects} />
         </div>
         );
