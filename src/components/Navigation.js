@@ -3,11 +3,22 @@ import Project from './Project';
 
 let state = 2;
 
-const projectInfo = {
-    name: 'Brewery Finder',
-    description: 'A web application to find and navigate to local breweries',
-    id: 1,
-  };
+const projects = [
+    {
+      name: 'Brewery Finder',
+      description: 'A web application to find and navigate to local breweries',
+      id: 1,
+    },
+    {
+      name: 'Test2',
+      description: 'safesfase',
+      id: 2,
+    },  {
+      name: 'Test3',
+      description: 'hgmfgym',
+      id: 3,
+    }
+  ];
 
 function Navigation() {
     if (state === 2) {
@@ -17,7 +28,7 @@ function Navigation() {
             <ul>
                 <li>Option 1</li>
             </ul>
-            <Project name={projectInfo.name} description={projectInfo.description} id={projectInfo.id} />
+            <Project projects={projects} />
         </div>
         );
     } else {
