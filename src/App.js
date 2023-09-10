@@ -1,8 +1,18 @@
-import React from 'react';
-import Test from './components/Test';
+import React from "react";
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
-  return <Test />;
+  return (
+    <div>
+      <div>
+        <Header />
+      </div>
+      <div>
+        <Footer />
+      </div>
+    </div>
+  );
 }
 
 export default App;
