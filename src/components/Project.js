@@ -23,7 +23,7 @@ export default function Project(props) {
           <p className="card-text">Description: {props.description}</p>
           <p className="card-text">ID: {props.id}</p>
           <a href="#" className="btn btn-primary">
-            Adopt {props.name}
+            {props.name}
           </a>
         </div>
       </div>
