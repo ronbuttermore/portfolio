@@ -1,27 +1,19 @@
 import React from 'react';
-import screenshot from '../images/screenshot-main-page.png'
+import screenshot from '../images/screenshot-main-page.png';
+import './Project.css';
 
 export default function Project(props) {
-  const projectStyle = {
-    width: '18rem',
-  };
-
   return (
-    <div>
+    <div class="row">
         {props.projects.map(project => (
-            <div className="container">
-                <div className="card" style={projectStyle}>
-                    <img className="card-img-top" src={screenshot} alt="Card cap" />
-                    <div className="card-body">
-                        <h5 className="card-title">Name: {project.name}</h5>
-                        <p className="card-text">Description: {project.description}</p>
-                        <p className="card-text">ID: {project.id}</p>
-                        <a href="#" className="btn btn-primary">
-                            {project.name}
-                        </a>
-                    </div>
-                </div>
+            <div class="card bg-dark text-white col-lg-4 col-sm-12 col-md-6">
+            <img src={screenshot} class="card-img" alt="Screenshot of a project with a descriptive caption overlay." />
+            <div class="card-img-overlay">
+              <h5 class="card-title">{project.name}</h5>
+              <p class="card-text">{project.description}</p>
+              <p class="card-text">{project.id}</p>
             </div>
+          </div>
         ))}
     </div>
   );

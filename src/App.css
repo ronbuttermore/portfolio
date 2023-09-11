@@ -1,11 +1,7 @@
 .page {
     font-family: 'Bricolage Grotesque', sans-serif;
-    background-color: rgb(189, 146, 146);
+    background-color: rgb(165, 136, 136);
     height: 100vh;
-}
-
-.content {
-    text-align: center;
 }
 
 .footerlist {
@@ -42,6 +38,10 @@
 .links {
     font-size: 30px;
     margin: 20px;
+}
+
+a {
+    margin: 10px;
 }
 
 @media (max-width: 576px) {
