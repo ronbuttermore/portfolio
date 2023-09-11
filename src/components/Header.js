@@ -39,8 +39,8 @@ function Header({ currentPage, handlePageChange }) {
         aboutme.style.color = "grey";
         portfolio.style.color = "grey";
         contact.style.color = "grey";
-        handlePageChange('#Resume');
     }
+    handlePageChange('#Resume');
   }
 }
 

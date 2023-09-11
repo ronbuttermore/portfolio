@@ -4,7 +4,7 @@ import './Resume.css';
 function Resume() {
     return (
         <div class="resumePage">
-            <a href='#' id ="resumelink">Here's a link to my resume!</a>
+            <a href='https://drive.google.com/file/d/1s9lCj-j1-uZ9AAnJPYs0apv5yzG5FPGZ/view?usp=sharing' id ="resumelink">Here's a link to my resume!</a>
             <h3 class="listtitle">Front-end Proficiencies: </h3>
             <ul class="tech">
                 <li>HTML</li>
