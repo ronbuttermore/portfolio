@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div>
+    <div class="page">
       <div class="content">
         <Header />
       </div>
