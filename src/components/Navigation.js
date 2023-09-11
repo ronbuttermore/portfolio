@@ -14,37 +14,49 @@ import weatherdashboard from './images/weather-dashboard.PNG';
 const projects = [
     {
       name: 'Brewery Finder',
-      description: 'A web application to find and navigate to local breweries',
+      description: 'Find and navigate to local breweries',
       id: 1,
-      img: breweryfinder
+      img: breweryfinder,
+      link: 'https://ronbuttermore.github.io/brewery-finder/',
+      git: 'https://github.com/ronbuttermore/brewery-finder.git'
     },
     {
       name: 'Weather Dashboard',
-      description: 'A web application to find up-to-date weather information',
+      description: 'Find up-to-date weather information',
       id: 2,
-      img: weatherdashboard
+      img: weatherdashboard,
+      link: 'https://ronbuttermore.github.io/brewery-finder/',
+      git: 'https://github.com/ronbuttermore/brewery-finder.git'
     },  {
       name: 'Tech Blog',
       description: 'A simple blog website allowing users to post and comment',
       id: 3,
-      img: techblog
+      img: techblog,
+      link: 'https://ronbuttermore.github.io/brewery-finder/',
+      git: 'https://github.com/ronbuttermore/brewery-finder.git'
     },
     {
         name: 'Social Network API',
         description: 'A database application to modify user data',
         id: 4,
-        img: socialnetworkapi
+        img: socialnetworkapi,
+        link: 'https://ronbuttermore.github.io/brewery-finder/',
+        git: 'https://github.com/ronbuttermore/brewery-finder.git'
       },
       {
         name: 'Queer Source Resource Database',
         description: 'Counseling and therapy support for the LGBTQ+ community ',
         id: 5,
-        img: queersource
+        img: queersource,
+        link: 'https://ronbuttermore.github.io/brewery-finder/',
+        git: 'https://github.com/ronbuttermore/brewery-finder.git'
       },  {
         name: 'Password Generator',
         description: 'A simple javascript password generator',
         id: 6,
-        img: passwordgenerator
+        img: passwordgenerator,
+        link: 'https://ronbuttermore.github.io/brewery-finder/',
+        git: 'https://github.com/ronbuttermore/brewery-finder.git'
       }
   ];
 
