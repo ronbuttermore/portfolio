@@ -1,0 +1,26 @@
+.resumePage {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+}
+
+#resumelink {
+    font-size: 30px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.listtitle {
+    padding: 20px;
+    margin: 20px;
+}
+
+.tech {
+    font-size: 20px;
+    padding-bottom: 25px;
+}

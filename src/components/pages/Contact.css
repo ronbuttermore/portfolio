@@ -1,0 +1,28 @@
+.response, label {
+    display: block;
+    margin: 10px;
+    margin-left: 80px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 40vh;
+}
+
+#message {
+    padding: 50px;
+}
+
+p {
+    padding: 10px;
+    font-size: 28px;
+}
+
+#greeting {
+    padding-left: 40px;
+    margin: 10px;
+    margin-left: 40px;
+}
+
+.form {
+    align-items: center;
+    justify-content: center;
+}

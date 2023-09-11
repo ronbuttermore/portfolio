@@ -25,38 +25,38 @@ const projects = [
       description: 'Find up-to-date weather information',
       id: 2,
       img: weatherdashboard,
-      link: 'https://ronbuttermore.github.io/brewery-finder/',
-      git: 'https://github.com/ronbuttermore/brewery-finder.git'
+      link: 'https://ronbuttermore.github.io/weather-dashboard/',
+      git: 'https://github.com/ronbuttermore/weather-dashboard.git'
     },  {
       name: 'Tech Blog',
       description: 'A simple blog website allowing users to post and comment',
       id: 3,
       img: techblog,
-      link: 'https://ronbuttermore.github.io/brewery-finder/',
-      git: 'https://github.com/ronbuttermore/brewery-finder.git'
+      link: 'https://ronbuttermore.github.io/tech-blog/',
+      git: 'https://github.com/ronbuttermore/tech-blog.git'
     },
     {
         name: 'Social Network API',
         description: 'A database application to modify user data',
         id: 4,
         img: socialnetworkapi,
-        link: 'https://ronbuttermore.github.io/brewery-finder/',
-        git: 'https://github.com/ronbuttermore/brewery-finder.git'
+        link: 'https://ronbuttermore.github.io/social-network-api/',
+        git: 'https://github.com/ronbuttermore/social-network-api.git'
       },
       {
         name: 'Queer Source Resource Database',
         description: 'Counseling and therapy support for the LGBTQ+ community ',
         id: 5,
         img: queersource,
-        link: 'https://ronbuttermore.github.io/brewery-finder/',
-        git: 'https://github.com/ronbuttermore/brewery-finder.git'
+        link: 'https://ronbuttermore.github.io/queer-asterisk-resource-database/',
+        git: 'https://github.com/ronbuttermore/queer-asterisk-resource-database.git'
       },  {
         name: 'Password Generator',
         description: 'A simple javascript password generator',
         id: 6,
         img: passwordgenerator,
-        link: 'https://ronbuttermore.github.io/brewery-finder/',
-        git: 'https://github.com/ronbuttermore/brewery-finder.git'
+        link: 'https://ronbuttermore.github.io/password-generator/',
+        git: 'https://github.com/ronbuttermore/password-generator.git'
       }
   ];
 

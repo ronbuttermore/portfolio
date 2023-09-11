@@ -1,11 +1,12 @@
 import React from "react";
+import './Resume.css';
 
 function Resume() {
     return (
-        <div>
-            <a href='#'>Here's a link to my resume!</a>
-            <h3>Front-end Proficiencies: </h3>
-            <ul>
+        <div class="resumePage">
+            <a href='#' id ="resumelink">Here's a link to my resume!</a>
+            <h3 class="listtitle">Front-end Proficiencies: </h3>
+            <ul class="tech">
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
@@ -14,8 +15,8 @@ function Resume() {
                 <li>React</li>
                 <li>Bootstrap</li>
             </ul>
-            <h3>Back-end Proficiencies: </h3>
-            <ul>
+            <h3 class="listtitle">Back-end Proficiencies: </h3>
+            <ul class="tech">
                 <li>APIs</li>
                 <li>Node</li>
                 <li>Express</li>

@@ -7,14 +7,15 @@
 }
 
 .card-title {
+    color: white;
     font-size: 30px;
     text-align: center;
 }
 
-.projects {
+#projects {
     background-color: rgba(255, 255, 0, 0.678);
-    padding-bottom: 90px;
-    padding-top: 10px;
+    padding-bottom: 95px;
+    padding-top: 15px;
 }
 
 .card {
@@ -22,5 +23,6 @@
 }
 
 .links {
-    color: gray;
+    color: white;
+    font-style: normal;
 }
