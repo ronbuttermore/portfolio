@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import Project from './Project';
 
-let state = 2;
-
 const projects = [
     {
       name: 'Brewery Finder',
