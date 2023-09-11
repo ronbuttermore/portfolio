@@ -1,7 +1,6 @@
 import React from 'react';
-import Navigation from './Navigation';
 
-function Header() {
+function Header({ currentPage, handlePageChange }) {
 
   const handleNav = (e) => {
     var link = e.target.getAttribute("href");
@@ -17,6 +16,7 @@ function Header() {
         contact.style.color = "grey";
         resume.style.color = "grey";
       }
+      handlePageChange('#AboutMe');
     } else if (link === '#Portfolio') {
       portfolio.style.color = "yellow";
       if (aboutme.style.color === "yellow" || contact.style.color === "yellow" || resume.style.color === "yellow") {
@@ -24,6 +24,7 @@ function Header() {
         contact.style.color = "grey";
         resume.style.color = "grey";
       }
+      handlePageChange('#Portfolio');
     } else if (link === '#Contact') {
       contact.style.color = "yellow";
       if (aboutme.style.color === "yellow" || portfolio.style.color === "yellow" || resume.style.color === "yellow") {
@@ -31,15 +32,16 @@ function Header() {
         portfolio.style.color = "grey";
         resume.style.color = "grey";
       }
+      handlePageChange('#Contact');
     } else if (link === '#Resume') {
       resume.style.color = "yellow";
       if (aboutme.style.color === "yellow" || portfolio.style.color === "yellow" || contact.style.color === "yellow") {
         aboutme.style.color = "grey";
         portfolio.style.color = "grey";
         contact.style.color = "grey";
+        handlePageChange('#Resume');
     }
   }
-  return link;
 }
 
   return (
@@ -53,22 +55,21 @@ function Header() {
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item active">
-                <a class="nav-link links" href="#AboutMe" id="aboutme" onClick={handleNav}>About Me</a>
+                <a class="nav-link links" className={currentPage === "#AboutMe" ? 'nav-link active' : 'nav-link'} href="#AboutMe" id="aboutme" onClick={handleNav}>About Me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link links" href="#Portfolio" id="portfolio" onClick={handleNav}>Portfolio</a>
+                <a class="nav-link links" className={currentPage === "#Portfolio" ? 'nav-link active' : 'nav-link'} href="#Portfolio" id="portfolio" onClick={handleNav}>Portfolio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link links" href="#Contact" id="contact" onClick={handleNav}>Contact</a>
+                <a class="nav-link links" className={currentPage === "#Contact" ? 'nav-link active' : 'nav-link'} href="#Contact" id="contact" onClick={handleNav}>Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link links" href="#Resume" id="resume" onClick={handleNav}>Resume</a>
+                <a class="nav-link links" className={currentPage === "#Resume" ? 'nav-link active' : 'nav-link'} href="#Resume" id="resume" onClick={handleNav}>Resume</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-      <Navigation link={handleNav}/>
     </div>
   );
 }

@@ -1,13 +1,13 @@
 import './App.css';
 import React from "react";
-import Header from './components/Header';
+import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 
 function App() {
   return (
     <div class="page">
       <div class="content">
-        <Header />
+        <Navigation />
       </div>
       <div class="footer">
         <Footer />

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Header from './Header';
 import Project from './pages/Project';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
@@ -35,34 +36,42 @@ const projects = [
       }
   ];
 
-function Navigation(props) {
-    var selectedPage = props.handleNav;
-    console.log(selectedPage);
-    const [currentPage, setCurrentPage] = useState(
-        '#AboutMe'
-    );
+function Navigation() {
 
-    if (currentPage === '#Projects') {
-        console.log(selectedPage);
-        return (
-        <div>
-            <Project projects={projects} />
-        </div>
-        );
-    } else if (currentPage === '#Contact') {
-        return (
-            <Contact />
-        );
-    } else if (currentPage === '#Resume') {
-        return (
-            <Resume />
-        );
-    } else {
-        return (
-            <AboutMe />
-        );
-    };
-  };
+    const [currentPage, setCurrentPage] = useState(`#AboutMe`);
+
+    const renderPage = () => {
+        if (currentPage === '#Portfolio') {
+            return (
+            <div>
+                <Project projects={projects} />
+            </div>
+            );
+        } else if (currentPage === '#Contact') {
+            return (
+                <Contact />
+            );
+        } else if (currentPage === '#Resume') {
+            return (
+                <Resume />
+            );
+        } else {
+            return (
+                <AboutMe />
+                );
+            };
+        };
   
-  export default Navigation;
+    const handlePageChange = (page) => setCurrentPage(page);
+
+    return (
+        <div>
+          <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+          {renderPage()}
+        </div>
+      );
+
+};
+
+export default Navigation;
   
