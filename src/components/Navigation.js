@@ -43,10 +43,20 @@ function Navigation() {
             <Project projects={projects} />
         </div>
         );
+    } else if (currentPage === 'Contact') {
+        return (
+            <h2>Contact Page in progress</h2>
+        );
+    } else if (currentPage === 'Resume') {
+        return (
+            <h2>Resume coming soon</h2>
+        );
     } else {
-        return <p>not found</p>
-    }
-  }
+        return (
+            <h2>About me: </h2>
+        );
+    };
+  };
   
   export default Navigation;
   
