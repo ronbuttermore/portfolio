@@ -2,6 +2,7 @@
     text-align: center;
     padding: 10px;
     margin: 10px;
+    border: 2px dashed black;
 }
 
 ul {
@@ -16,8 +17,9 @@ ul {
 }
 
 .listtitle {
-    padding: 20px;
-    margin: 20px;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
 }
 
 .tech {
