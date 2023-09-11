@@ -4,35 +4,47 @@ import Project from './pages/Project';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import AboutMe from './pages/AboutMe';
+import breweryfinder from './images/brewery-finder.png';
+import passwordgenerator from './images/password-generator.PNG';
+import queersource from './images/queer-source.PNG';
+import socialnetworkapi from './images/social-network-api.PNG';
+import techblog from './images/tech-blog.PNG';
+import weatherdashboard from './images/weather-dashboard.PNG';
 
 const projects = [
     {
       name: 'Brewery Finder',
       description: 'A web application to find and navigate to local breweries',
       id: 1,
+      img: breweryfinder
     },
     {
-      name: 'Test2',
-      description: 'safesfase',
+      name: 'Weather Dashboard',
+      description: 'A web application to find up-to-date weather information',
       id: 2,
+      img: weatherdashboard
     },  {
-      name: 'Test3',
-      description: 'hgmfgym',
+      name: 'Tech Blog',
+      description: 'A simple blog website allowing users to post and comment',
       id: 3,
+      img: techblog
     },
     {
-        name: 'Test3',
-        description: 'werwrewrew',
+        name: 'Social Network API',
+        description: 'A database application to modify user data',
         id: 4,
+        img: socialnetworkapi
       },
       {
-        name: 'Test4',
-        description: 'hmngdmghdbfg',
+        name: 'Queer Source Resource Database',
+        description: 'Counseling and therapy support for the LGBTQ+ community ',
         id: 5,
+        img: queersource
       },  {
-        name: 'Test5',
-        description: 'xfvedfe',
+        name: 'Password Generator',
+        description: 'A simple javascript password generator',
         id: 6,
+        img: passwordgenerator
       }
   ];
 

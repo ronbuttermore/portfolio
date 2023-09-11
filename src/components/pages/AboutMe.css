@@ -11,6 +11,7 @@ p {
     font-size: 30px;
     padding: 30px;
     margin: 30px;
+    font-style: italic;
 }
 
 #heading {
@@ -22,11 +23,16 @@ img {
 }
 
 .aboutMe {
-        padding: 20px;
         position: fixed;
-        left: 85px;
+        left: 125px;
+        display: flex;
 }
 
 #blurb {
     margin-top: 110px;
+}
+
+.sidebar {
+    background-color: rgb(253, 248, 248);
+    height: 100vh;
 }

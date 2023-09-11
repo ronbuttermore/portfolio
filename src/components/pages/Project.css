@@ -1,4 +1,21 @@
-card {
-    margin: 20px;
-    padding: 20px;
+.card-text {
+    color: white;
+    padding-top: 432px;
+    padding-left: 50px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 30px;
+    text-align: center;
+}
+
+.projects {
+    background-color: rgba(255, 255, 0, 0.678);
+    padding-bottom: 90px;
+    padding-top: 10px;
+}
+
+.card {
+    justify-content: center;
 }
