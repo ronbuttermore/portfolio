@@ -10,35 +10,36 @@ function Header() {
     var contact = document.getElementById('contact');
     var resume = document.getElementById('resume');
 
-    if (link == "#AboutMe") {
+    if (link === "#AboutMe") {
       aboutme.style.color = "yellow";
-      if (portfolio.style.color == "yellow" || contact.style.color == "yellow" || resume.style.color == "yellow") {
+      if (portfolio.style.color === "yellow" || contact.style.color === "yellow" || resume.style.color === "yellow") {
         portfolio.style.color = "grey";
         contact.style.color = "grey";
         resume.style.color = "grey";
       }
-    } else if (link == '#Portfolio') {
+    } else if (link === '#Portfolio') {
       portfolio.style.color = "yellow";
-      if (aboutme.style.color == "yellow" || contact.style.color == "yellow" || resume.style.color == "yellow") {
+      if (aboutme.style.color === "yellow" || contact.style.color === "yellow" || resume.style.color === "yellow") {
         aboutme.style.color = "grey";
         contact.style.color = "grey";
         resume.style.color = "grey";
       }
-    } else if (link == '#Contact') {
+    } else if (link === '#Contact') {
       contact.style.color = "yellow";
-      if (aboutme.style.color == "yellow" || portfolio.style.color == "yellow" || resume.style.color == "yellow") {
+      if (aboutme.style.color === "yellow" || portfolio.style.color === "yellow" || resume.style.color === "yellow") {
         aboutme.style.color = "grey";
         portfolio.style.color = "grey";
         resume.style.color = "grey";
       }
-    } else if (link == '#Resume') {
+    } else if (link === '#Resume') {
       resume.style.color = "yellow";
-      if (aboutme.style.color == "yellow" || portfolio.style.color == "yellow" || contact.style.color == "yellow") {
+      if (aboutme.style.color === "yellow" || portfolio.style.color === "yellow" || contact.style.color === "yellow") {
         aboutme.style.color = "grey";
         portfolio.style.color = "grey";
         contact.style.color = "grey";
     }
   }
+  return link;
 }
 
   return (
@@ -67,7 +68,7 @@ function Header() {
           </div>
         </div>
       </nav>
-      <Navigation />
+      <Navigation link={handleNav}/>
     </div>
   );
 }

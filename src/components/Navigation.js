@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
-import Project from './Project';
+import Project from './pages/Project';
+import Contact from './pages/Contact';
+import Resume from './pages/Resume';
+import AboutMe from './pages/AboutMe';
 
 const projects = [
     {
@@ -32,28 +35,31 @@ const projects = [
       }
   ];
 
-function Navigation() {
+function Navigation(props) {
+    var selectedPage = props.handleNav;
+    console.log(selectedPage);
     const [currentPage, setCurrentPage] = useState(
-        'Projects'
+        '#AboutMe'
     );
 
-    if (currentPage === 'Projects') {
+    if (currentPage === '#Projects') {
+        console.log(selectedPage);
         return (
         <div>
             <Project projects={projects} />
         </div>
         );
-    } else if (currentPage === 'Contact') {
+    } else if (currentPage === '#Contact') {
         return (
-            <h2>Contact Page in progress</h2>
+            <Contact />
         );
-    } else if (currentPage === 'Resume') {
+    } else if (currentPage === '#Resume') {
         return (
-            <h2>Resume coming soon</h2>
+            <Resume />
         );
     } else {
         return (
-            <h2>About me: </h2>
+            <AboutMe />
         );
     };
   };

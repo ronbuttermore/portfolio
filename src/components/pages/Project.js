@@ -1,6 +1,5 @@
 import React from 'react';
-
-const screenshot = require('./screenshot-main-page.png');
+import screenshot from '../images/screenshot-main-page.png'
 
 export default function Project(props) {
   const projectStyle = {

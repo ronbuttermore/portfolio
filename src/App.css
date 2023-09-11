@@ -2,6 +2,10 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.content {
+    text-align: center;
+}
+
 .footerlist {
     text-align: center;
     list-style-type: none;
@@ -20,6 +24,9 @@
     margin: 0;
     padding: 0;
     height: 75px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
 }
 
 #name {
