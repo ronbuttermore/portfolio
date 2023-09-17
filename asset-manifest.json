@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-portfolio-deployed/static/css/main.07a8e3fc.css",
+    "main.js": "/react-portfolio-deployed/static/js/main.76e08ede.js",
+    "static/media/headshot.jpg": "/react-portfolio-deployed/static/media/headshot.a5529ed7d08c3d442113.jpg",
+    "static/media/brewery-finder.png": "/react-portfolio-deployed/static/media/brewery-finder.47aa307ed58a098bd958.png",
+    "static/media/queer-source.PNG": "/react-portfolio-deployed/static/media/queer-source.3d86dbddf29b54f6f45d.PNG",
+    "static/media/social-network-api.PNG": "/react-portfolio-deployed/static/media/social-network-api.e2276cdebf80c0d3a6c8.PNG",
+    "static/media/weather-dashboard.PNG": "/react-portfolio-deployed/static/media/weather-dashboard.eca31af92da090bdbfe3.PNG",
+    "static/media/tech-blog.PNG": "/react-portfolio-deployed/static/media/tech-blog.e9c6a8401f3dbdfb79dc.PNG",
+    "static/media/password-generator.PNG": "/react-portfolio-deployed/static/media/password-generator.2fae73b47df39daaa83c.PNG",
+    "index.html": "/react-portfolio-deployed/index.html",
+    "main.07a8e3fc.css.map": "/react-portfolio-deployed/static/css/main.07a8e3fc.css.map",
+    "main.76e08ede.js.map": "/react-portfolio-deployed/static/js/main.76e08ede.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07a8e3fc.css",
+    "static/js/main.76e08ede.js"
+  ]
+}
