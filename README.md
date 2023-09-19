@@ -1,9 +1,10 @@
 # React Portfolio
 
 ## Description
-
+This application was created with React as a way to display my portfolio to interested parties. The user of this application can see a information about me, my projects, contact me, and view my proficiencies all from a single page.
 
 ## Usage
+The application can be found deployed at https://github.com/ronbuttermore/react-portfolio.git. In order to switch between informational sections, the user may click on the links contained in the navbar at the top of the page. Users can find the links to the deployed applications and github repositories in the projects section of the application, and can contact me using the contact form page. A link to my resume can be found in the resume section of the application.
 
 ![Screenshot of React Portfolio](Screenshot.png)
 
