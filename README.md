@@ -5,6 +5,7 @@
 
 ## Usage
 
+![Screenshot of React Portfolio](Screenshot.png)
 
 ## License
 MIT Open-Source License
